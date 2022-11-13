@@ -24,6 +24,6 @@ function ontBtnStartClick() {
 
 function onBtnStopClick() {
     clearInterval(timerId);
-    refs.startBtn.disabled = false;
+    refs.btnStart.disabled = false;
     refs.btnStop.disabled = true;
 }
